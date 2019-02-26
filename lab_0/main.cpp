@@ -40,7 +40,7 @@ int main()
             new_Data.push_back(Data(number));
             std::sort(new_Data.begin(), new_Data.end(), compare_by_Data);
             Dubl(new_Data);
-            cout <<"Ñîîáùåíèå "<< new_Data[0].number << "-" << new_Data[new_Data.size()-1].number;
+            cout <<"Ğ¡Ğ¾Ğ¾Ğ±Ñ‰ĞµĞ½Ğ¸Ğµ "<< new_Data[0].number << "-" << new_Data[new_Data.size()-1].number;
             Povtor(new_Data, 0);
             cout<<endl;
         }
@@ -68,11 +68,11 @@ int Povtor(vector<Data> new_Data, int repeat)
     }
     if(repeat == 0)
     {
-        cout<< " ïîëó÷åíî ïîëíîñòüş.";
+        cout<< " Ğ¿Ğ¾Ğ»ÑƒÑ‡ĞµĞ½Ğ¾ Ğ¿Ğ¾Ğ»Ğ½Ğ¾ÑÑ‚ÑŒÑ.";
     }
     else
     {
-      cout<< " íå õâàòàåò ïàêåòîâ:";
+      cout<< " Ğ½Ğµ Ñ…Ğ²Ğ°Ñ‚Ğ°ĞµÑ‚ Ğ¿Ğ°ĞºĞµÑ‚Ğ¾Ğ²:";
       for (int i = 0; i < lack_of_packet.size(); i++)
       std::cout << lack_of_packet[i].number<<" ";
     }
